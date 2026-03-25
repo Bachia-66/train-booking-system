@@ -16,7 +16,7 @@ button {
     cursor: pointer;
 }
 
-/* ========== NEW: Authentication Styles ========== */
+/* ==========  Authentication Styles ========== */
 .auth-section {
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@ button {
     color: #2e7d32;
 }
 
-/* ========== NEW: User Bar ========== */
+/* ==========  User Bar ========== */
 .user-bar {
     background: #333;
     color: white;
@@ -97,7 +97,7 @@ button {
     margin-left: 15px;
 }
 
-/* ========== NEW: Bookings List ========== */
+/* ==========  Bookings List ========== */
 .booking-item {
     border: 1px solid #ddd;
     padding: 10px;
