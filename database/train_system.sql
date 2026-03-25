@@ -1,25 +1,3 @@
--- Active: 1774121748638@@127.0.0.1@3306@phpmyadmin
--- ============================================
--- DATABASE: train_system
--- Complete schema with all tables and Kenyan city data
--- ============================================
-
--- Drop database if exists (use with caution - deletes all data)
--- DROP DATABASE IF EXISTS train_system;
-
--- Create database
-
-DROP DATABASE IF EXISTS train_system;
-CREATE DATABASE train_system;
--- Active: 1774121748638@@127.0.0.1@3306@phpmyadmin
--- ============================================
--- DATABASE: train_system
--- COMPLETE CORRECTED SCHEMA
--- ============================================
-
--- Drop database if exists (use with caution - deletes all data)
--- DROP DATABASE IF EXISTS train_system;
-
 -- Create database
 CREATE DATABASE IF NOT EXISTS train_system;
 USE train_system;
