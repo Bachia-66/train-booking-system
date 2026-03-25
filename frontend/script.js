@@ -4,7 +4,7 @@
 let authToken = null;
 let currentUser = null;
 
-// ========== NEW: Authentication Functions ==========
+// ==========  Authentication Functions ==========
 
 async function login() {
     const username = document.getElementById('login-username').value;
@@ -139,7 +139,7 @@ function checkExistingLogin() {
     return false;
 }
 
-// ========== MODIFIED: searchTrains (now uses auth token) ==========
+// ========== searchTrains (uses auth token) ==========
 async function searchTrains() {
     const source = document.getElementById('source').value;
     const destination = document.getElementById('destination').value;
@@ -181,7 +181,7 @@ async function searchTrains() {
             return;
         }
 
-        // Display results (same as your original display format)
+        // Display results 
         let html = "";
         data.forEach(train => {
             html += `
@@ -198,7 +198,7 @@ async function searchTrains() {
     }
 }
 
-// ========== MODIFIED: book function (now uses auth token) ==========
+// ========== book function (also uses auth token) ==========
 async function book(train_id) {
     const seats = prompt("How many seats?", "1");
     if (!seats || seats < 1) return;
@@ -235,7 +235,7 @@ async function book(train_id) {
     }
 }
 
-// ========== NEW: Load user's bookings ==========
+// ========== Load user's bookings ==========
 async function loadMyBookings() {
     const bookingsDiv = document.getElementById('my-bookings');
     bookingsDiv.innerHTML = '<p>Loading your bookings...</p>';
