@@ -1,0 +1,120 @@
+/* ========== ORIGINAL STYLES (keep these) ========== */
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* ========== NEW: Authentication Styles ========== */
+.auth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.auth-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-box input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-box button {
+    width: 100%;
+    background: #667eea;
+    margin-top: 10px;
+}
+
+.auth-box p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-box a {
+    color: #667eea;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.message.error {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.message.success {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* ========== NEW: User Bar ========== */
+.user-bar {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    background: #ff4444;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+/* ========== NEW: Bookings List ========== */
+.booking-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.booking-item p {
+    margin: 5px 0;
+}
+
+.pnr {
+    font-weight: bold;
+    color: #667eea;
+}
+
+
